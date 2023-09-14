@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  permissions:
-    contents: read
-    packages: write
-
   build:
+    permissions:
+      contents: read
+      packages: write
+
     runs-on: ubuntu-latest
 
     steps:
