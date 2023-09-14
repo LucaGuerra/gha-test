@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/LucaGuerra/gha-test:latest
+        tags: ghcr.io/lucaguerra/gha-test:latest
